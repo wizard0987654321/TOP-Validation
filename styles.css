@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 0.5rem;
+    width: 20%;
+    border-color: black;
+    border-radius: 6px;
+}
+
+button {
+    width: 20%;
+    margin: 0.5rem;
+}
+
+input:invalid {
+    border-color: red;
+}
